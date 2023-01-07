@@ -14,3 +14,18 @@ and %96 on english
 ## Usage
 toxicity_inspector.py is the combined model
 also you can use toxicity_model.ipynb for usage examples
+## Installation
+- First git clone the project
+````
+git clone https://github.com/MrRiybot/toxicity_inspector.git
+````
+- then import module
+``````
+import toxicity_inspector
+``````
+- then initilize class
+`````
+model = toxicity_inspector.Toxicity_model()
+# if output is less than 0.5 then its not toxic else is toxic
+model.predict("لو انت ابن راجل  انزل السعودية")
+``````
